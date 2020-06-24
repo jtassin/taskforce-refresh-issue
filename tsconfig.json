@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "noEmit": true,
+    "target": "es2018",
+    "lib": ["es2018", "esnext.asynciterable"],
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "typeRoots": ["node_modules/@types", "node_modules/@keplr/jest-matchers"],
+    "strictPropertyInitialization": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "rootDir": "./src",
+    "strict": true
+  },
+  "include": ["./src/**/*.ts"]
+}
